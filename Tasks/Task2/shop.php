@@ -3,6 +3,7 @@
 function bestDeal($p1, $p2, $b){
 
   $notenough = $b < $p1 && $b < $p2;
+
   switch(true){
     case $notenough:
       echo "Sorry, your budget is not enough";
